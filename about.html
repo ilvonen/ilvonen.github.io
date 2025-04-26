@@ -6,8 +6,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>About This Website</h1>
-    <p>This is a test site hosted on my own computer.</p>
-    <p><a href="index.html">Back Home</a></p>
+	<header>
+		<nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="my_plot.html">Plot!</a></li>
+            </ul>
+        </nav>
+		<h1>About This Website</h1>
+		<p>This is a test site hosted on my own computer.</p>
+		<main>
+			<div id="app">
+				<button onclick="increaseCounter()">Click me!</button>
+				<p id="counter">You clicked 0 times.</p>
+			</div>
+
+			<script src="js/about_app.js"></script>
+		</main>
+		
+		<p><a href="index.html">Back Home</a></p>
+	</header>
 </body>
 </html>
